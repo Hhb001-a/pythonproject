@@ -1,0 +1,14 @@
+[32mINFO    [0m common.recordlog:conftest.py:20 -------------接口测试开始--------------
+[32mINFO    [0m common.recordlog:sendrequest.py:135 接口名称：校验订单状态
+[32mINFO    [0m common.recordlog:sendrequest.py:136 请求地址：http://127.0.0.1:8787/coupApply/cms/checkOrderStatus
+[32mINFO    [0m common.recordlog:sendrequest.py:137 请求方式：post
+[32mINFO    [0m common.recordlog:sendrequest.py:138 测试用例名称：校验商品订单状态
+[32mINFO    [0m common.recordlog:sendrequest.py:139 请求头：{'Content-Type': 'application/json;charset=UTF-8'}
+[32mINFO    [0m common.recordlog:sendrequest.py:140 Cookie：None
+[32mINFO    [0m common.recordlog:sendrequest.py:147 请求参数：{'json': {'orderNumber': '381665665942946213944', 'timeStamp': '1776953818'}}
+[32mINFO    [0m common.recordlog:sendrequest.py:108 接口返回信息：{"error":"","error_code":"","queryTime":"2026-04-23 22:16:58","status":"0","translate_language":"zh-CN"}
+
+[32mINFO    [0m common.recordlog:assertions.py:170 yaml文件预期结果：[{'eq': {'status': '0'}}]
+[32mINFO    [0m common.recordlog:assertions.py:68 相等断言成功：接口实际结果：{'status': '0'}，等于预期结果：{'status': '0'}
+[32mINFO    [0m common.recordlog:assertions.py:198 测试成功
+[32mINFO    [0m common.recordlog:conftest.py:22 -------------接口测试结束--------------
